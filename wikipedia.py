@@ -40,7 +40,7 @@ def get_groq_llm(model="llama3-8b-8192", temperature=0.1):
 # Streamlit UI
 st.title("RAG-Powered Web Q&A using Groq’s Llama 3 & Hugging Face")
 st.image("my_image.jpeg") 
-st.video(WhatsApp Video 2025-03-13 at 12.58.03 PM.mp4"")
+st.video("WhatsApp Video 2025-03-13 at 12.58.03 PM.mp4")
 
 # User inputs a URL
 url = st.text_input("Enter a URL to extract content:")
